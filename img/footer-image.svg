@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <rect width="600" height="120" fill="#e9f8f0"/>
+  <g transform="translate(20,20)">
+    <circle cx="40" cy="40" r="20" fill="#7bbf6a"/>
+    <text x="80" y="50" font-family="Inter, Arial" font-size="18" fill="#22543d">ONG Viva — Junte-se a nós</text>
+  </g>
+</svg>

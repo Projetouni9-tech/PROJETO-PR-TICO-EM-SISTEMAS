@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Viva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-initial-route="home">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" data-route="home" aria-label="Ir para Início">
+        <img src="img/logo.png" alt="ONG Viva" class="logo" />
+      </a>
+
+      <nav class="main-nav" aria-label="Menu principal">
+        <a href="#home" data-route="home">Início</a>
+        <a href="#projects" data-route="projects">Projetos</a>
+        <a href="#cadastro" data-route="cadastro">Cadastro</a>
+      </nav>
+
+      <button id="mobileMenuBtn" class="mobile-menu-btn" aria-expanded="false" aria-label="Abrir menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main id="view-root" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <img src="img/logo.png" alt="ONG Viva" class="footer-img" />
+        <p class="muted">© 2025 ONG Viva — Todos os direitos reservados.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <p><strong>E-mail:</strong> <a href="mailto:contato@ongviva.org">contato@ongviva.org</a></p>
+        <p><strong>Telefone:</strong> <a href="tel:+5511987543210">+55 (11) 98754-3210</a></p>
+        <p><strong>Endereço:</strong> Rua das Flores Solidárias, 120 - São Paulo/SP</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Horário de atendimento</h4>
+        <p>Seg - Sex: 09:00 — 18:00</p>
+        <p>Finais de semana: eventos e mutirões (conforme calendário)</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
