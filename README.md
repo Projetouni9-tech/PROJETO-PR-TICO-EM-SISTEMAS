@@ -41,7 +41,7 @@ Este sistema é uma **página institucional para uma ONG fictícia chamada "ONG 
 
 ## ☁️ Link do Sistema Online
 
-🔗 [Acesse o sistema publicado aqui](https://SEU-LINK-DA-CLOUD.com)
+🔗 https://ongviva.vercel.app/
 
 ## 🎥 Vídeo de Apresentação
 
